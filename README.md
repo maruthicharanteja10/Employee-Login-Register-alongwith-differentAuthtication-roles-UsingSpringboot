@@ -52,9 +52,10 @@ A Spring Boot-based web application for managing employees with role-based acces
 - Update database credentials in src/main/resources/application.properties:
 
 **properties**
-spring.datasource.url=jdbc:mysql://localhost:3306/tej_db
-spring.datasource.username=your-username
-spring.datasource.password=your-password
+
+- spring.datasource.url=jdbc:mysql://localhost:3306/tej_db
+- spring.datasource.username=your-username
+- spring.datasource.password=your-password
 Build and Run:
 
 bash
