@@ -52,18 +52,18 @@ A Spring Boot-based web application for managing employees with role-based acces
 - Update database credentials in src/main/resources/application.properties:
 
 **properties**
-
-- spring.datasource.url=jdbc:mysql://localhost:3306/tej_db
-- spring.datasource.username=your-username
-- spring.datasource.password=your-password
+ ```bash
+ spring.datasource.url=jdbc:mysql://localhost:3306/tej_db
+ spring.datasource.username=your-username
+ spring.datasource.password=your-password
+  ```
 Build and Run:
 
-bash
-Copy
+ ```bash
 mvn clean install
 mvn spring-boot:run
 Access the application at: http://localhost:8082
-
+ ```
 Usage
 Registration:
 
@@ -83,8 +83,8 @@ MANAGER: Can create and update employees
 
 STAFF: Read-only access to employee list
 
-Project Structure
-Copy
+## Project Structure
+ ```bash
 src/main/java
 ├── com.springboot.project.TejUserApplication
 │   ├── config          # Security configurations
@@ -98,6 +98,7 @@ src/main/resources
 ├── static              # CSS, JS, images
 ├── templates           # Thymeleaf templates
 └── application.properties # Configuration
+ ```
 Key Configuration
 application.properties:
 
