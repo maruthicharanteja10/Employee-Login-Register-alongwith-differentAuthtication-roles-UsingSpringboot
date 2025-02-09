@@ -4,14 +4,17 @@ https://drive.google.com/file/d/1PnkgLrqQ5byodFsrKGMN_r9o3aqPOdvK/view
 **Screenshots** 
 1. Home Page: ![image](https://github.com/user-attachments/assets/793a16ec-ae20-43ab-bbcd-4e0989584445)
 
-2. Login Page:
-![Login Page](screenshots/login.png)
+2. Login Page:![image](https://github.com/user-attachments/assets/1b7274d8-584e-49e6-9e25-731fac23b7d6)
 
-3. Admin Dashboard:
-![Admin Dashboard](screenshots/admin-dashboard.png)
+3. Register page :![image](https://github.com/user-attachments/assets/02a9b238-cd29-4dc0-baf7-b2c8cafbfc8b)
 
-4. Employee Management:
-![Employee Management](screenshots/employee-management.png)
+4. Admin Dashboard:![image](https://github.com/user-attachments/assets/0c2a16e0-f5ae-4d2c-8eff-a6606cd81b15)
+
+5. manager Dashboard :![image](https://github.com/user-attachments/assets/30cc80c9-f004-40a7-8b92-a2a95b88692b)
+
+6. staff Dashboard :![image](https://github.com/user-attachments/assets/75b3ade0-7220-49bc-b67b-f9844c1518b2)
+
+   
 # Employee Management System using Spring Security
 
 A Spring Boot-based web application for managing employees with role-based access control (ADMIN, MANAGER, STAFF).
