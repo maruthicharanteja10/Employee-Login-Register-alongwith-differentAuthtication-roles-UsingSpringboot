@@ -10,7 +10,7 @@ https://drive.google.com/file/d/1PnkgLrqQ5byodFsrKGMN_r9o3aqPOdvK/view
 
 3. Employee Management:
 ![Employee Management](screenshots/employee-management.png)
-# Employee Management System
+# Employee Management System using Spring Security
 
 A Spring Boot-based web application for managing employees with role-based access control (ADMIN, MANAGER, STAFF).
 
