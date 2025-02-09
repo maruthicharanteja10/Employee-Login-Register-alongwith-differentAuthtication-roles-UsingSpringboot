@@ -77,11 +77,11 @@ mvn spring-boot:run
 
 ## Role-based Access:
 
-- ## ADMIN: Full access to create, read, update, and delete employees
+- **ADMIN:** Full access to create, read, update, and delete employees
 
-- ## MANAGER: Can create and update employees
+- **MANAGER:** Can create and update employees
 
-- ## STAFF: Read-only access to employee list
+- **STAFF:** Read-only access to employee list
 
 ## Project Structure
  ```bash
