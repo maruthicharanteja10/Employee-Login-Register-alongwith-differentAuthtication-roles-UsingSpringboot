@@ -62,26 +62,26 @@ Build and Run:
  ```bash
 mvn clean install
 mvn spring-boot:run
-Access the application at: http://localhost:8082
  ```
-Usage
-Registration:
+- Access the application at: http://localhost:8082
+# Usage
+## Registration:
 
-Navigate to /register
+- Navigate to /register
 
-Fill in user details (role field must be either "ADMIN", "MANAGER", or "STAFF")
+- Fill in user details (role field must be either "ADMIN", "MANAGER", or "STAFF")
 
-Login:
+## Login:
 
-Use registered email and password at /signin
+- Use registered email and password at /signin
 
-Role-based Access:
+## Role-based Access:
 
-ADMIN: Full access to create, read, update, and delete employees
+- ## ADMIN: Full access to create, read, update, and delete employees
 
-MANAGER: Can create and update employees
+- ## MANAGER: Can create and update employees
 
-STAFF: Read-only access to employee list
+- ## STAFF: Read-only access to employee list
 
 ## Project Structure
  ```bash
