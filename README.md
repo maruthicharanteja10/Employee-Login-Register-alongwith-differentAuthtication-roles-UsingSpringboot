@@ -6,7 +6,7 @@ https://drive.google.com/file/d/1PnkgLrqQ5byodFsrKGMN_r9o3aqPOdvK/view
 2. Login Page:  [screenshot/loginpage](https://github.com/maruthicharanteja10/Employee-Login-Register-alongwith-differentAuthtication-roles-UsingSpringboot/blob/2170bb978a6e5ac01bc45156b3c20e0524c90628/screenshots/loginpage.png)
 3. Register page : [screenshots/register page.png](https://github.com/maruthicharanteja10/Employee-Login-Register-alongwith-differentAuthtication-roles-UsingSpringboot/blob/7297f3f6e1468add09cad8678e60e8fb69cffdb5/screenshots/register%20page.png)
 4. Admin Dashboard: [screenshots/Admin Dashboard.png](https://github.com/maruthicharanteja10/Employee-Login-Register-alongwith-differentAuthtication-roles-UsingSpringboot/blob/d2425e4d498213a764563611ef9eada3fa3a23a7/screenshots/Admin%20Dashboard.png)
-5. manager Dashboard :screenshots/Manager Dashboard.png
+5. manager Dashboard : [screenshots/Manager Dashboard.png](https://github.com/maruthicharanteja10/Employee-Login-Register-alongwith-differentAuthtication-roles-UsingSpringboot/blob/d4622354e69a839d122955e2526e4c55db7811e0/screenshots/Manager%20Dashboard.png)
 6. staff Dashboard :screenshots/staff dashboard.png
    
 # Employee Management System using Spring Security
