@@ -1,6 +1,15 @@
 # Demo video link of the project 
 https://drive.google.com/file/d/1PnkgLrqQ5byodFsrKGMN_r9o3aqPOdvK/view
+**Screenshots** (You can add these as images in your repository):
 
+1. Login Page:
+![Login Page](screenshots/login.png)
+
+2. Admin Dashboard:
+![Admin Dashboard](screenshots/admin-dashboard.png)
+
+3. Employee Management:
+![Employee Management](screenshots/employee-management.png)
 # Employee Management System
 
 A Spring Boot-based web application for managing employees with role-based access control (ADMIN, MANAGER, STAFF).
@@ -99,48 +108,26 @@ src/main/resources
 ├── templates           # Thymeleaf templates
 └── application.properties # Configuration
  ```
-Key Configuration
-application.properties:
-
+## Key Configuration
+**application.properties:**
+ ```bash
 properties
-Copy
+ 
 server.port=8082
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 spring.thymeleaf.cache=false
 management.endpoints.web.exposure.include=health,info
-Contributing
+ ```
+## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Copy
 
-**Screenshots** (You can add these as images in your repository):
 
-1. Login Page:
-![Login Page](screenshots/login.png)
 
-2. Admin Dashboard:
-![Admin Dashboard](screenshots/admin-dashboard.png)
 
-3. Employee Management:
-![Employee Management](screenshots/employee-management.png)
 
-Note: You should create a `screenshots` directory in your repository and add actual screenshots from your application.
 
-This README provides:
-- Clear project description
-- Installation instructions
-- Usage guide
-- Technology stack overview
-- Project structure explanation
-- Contribution guidelines
-- License information
-
-Make sure to:
-1. Replace `your-username` in the clone command with your actual GitHub username
-2. Add actual screenshots to the repository
-3. Create a LICENSE file if needed
-4. Update the database credentials in the README to match your local setup
