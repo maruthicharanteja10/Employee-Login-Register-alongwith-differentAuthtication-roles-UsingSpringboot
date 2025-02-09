@@ -1,97 +1,146 @@
 # Demo video link of the project 
 https://drive.google.com/file/d/1PnkgLrqQ5byodFsrKGMN_r9o3aqPOdvK/view
 
-# User Application - Spring Boot
+Here's a README.md file for your GitHub repository:
 
-## Description
+```markdown
+# Employee Management System
 
-The User Application is a Spring Boot project that demonstrates the use of various Spring frameworks such as Spring MVC, Spring Security, and Spring Data JPA. The application includes features for user registration and login with authentication mechanisms.
+A Spring Boot-based web application for managing employees with role-based access control (ADMIN, MANAGER, STAFF).
 
 ## Features
 
-- User Registration: Allows new users to sign up.
-- User Login: Authenticates existing users.
-- User Authentication: Ensures secure access to application resources.
-- User Management: Provides CRUD operations for managing user data.
-- Security: Implements user authentication using Spring Security.
-- Database Integration: Uses JPA for database operations.
+- User registration and authentication
+- Role-based access control:
+  - ADMIN: Full CRUD operations on employees
+  - MANAGER: Create and Update employees
+  - STAFF: View employee list
+- MySQL database integration
+- Thymeleaf templating for UI
+- Spring Security implementation
+- Responsive UI with Bootstrap
 
 ## Technologies Used
 
-- **Spring Boot**: To create stand-alone, production-grade Spring-based applications.
-- **Spring MVC**: For building web applications.
-- **Spring Security**: To handle authentication and authorization.
-- **Spring Data JPA**: For database operations.
-- **H2 Database**: An in-memory database for development and testing.
-- **Maven**: For project build and dependency management.
+- **Backend**:
+  - Spring Boot 3.2.4
+  - Spring Security
+  - Spring Data JPA
+- **Frontend**:
+  - Thymeleaf
+  - Bootstrap 5
+  - Font Awesome
+- **Database**:
+  - MySQL
+- **Build Tool**:
+  - Maven
 
-## Installation
+## Prerequisites
 
-### Prerequisites
-
-- Java 8 or higher
+- Java 17
+- MySQL Server
 - Maven
-- An IDE like IntelliJ IDEA or Eclipse
 
-### Steps
+## Installation & Setup
 
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/maruthicharanteja10/UserApplication-springboot.git
-   cd UserApplication-springboot
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/TejUserApplication.git
    ```
 
-2. Build the project using Maven:
-   ```sh
+2. **Database Setup**:
+   - Create a MySQL database named `tej_db`
+   - Update database credentials in `src/main/resources/application.properties`:
+     ```properties
+     spring.datasource.url=jdbc:mysql://localhost:3306/tej_db
+     spring.datasource.username=your-username
+     spring.datasource.password=your-password
+     ```
+
+3. **Build and Run**:
+   ```bash
    mvn clean install
-   ```
-
-3. Run the application:
-   ```sh
    mvn spring-boot:run
    ```
 
+4. Access the application at: `http://localhost:8082`
+
 ## Usage
 
-### Running the Application
+1. **Registration**:
+   - Navigate to `/register`
+   - Fill in user details (role field must be either "ADMIN", "MANAGER", or "STAFF")
 
-Once the application is running, you can access it via http://localhost:8080. Use a tool like Postman or a web browser to interact with the API endpoints.
+2. **Login**:
+   - Use registered email and password at `/signin`
 
-### API Endpoints
+3. **Role-based Access**:
+   - **ADMIN**: Full access to create, read, update, and delete employees
+   - **MANAGER**: Can create and update employees
+   - **STAFF**: Read-only access to employee list
 
-- `GET /users` - Retrieve a list of users
-- `POST /users` - Create a new user
-- `GET /users/{id}` - Retrieve a user by ID
-- `PUT /users/{id}` - Update a user by ID
-- `DELETE /users/{id}` - Delete a user by ID
+## Project Structure
 
-- POST /register - Register a new user
-- POST /login - Authenticate a user
+```
+src/main/java
+├── com.springboot.project.TejUserApplication
+│   ├── config          # Security configurations
+│   ├── controller      # MVC Controllers
+│   ├── entity          # JPA Entities
+│   ├── repository      # Spring Data JPA Repositories
+│   ├── service         # Business logic implementations
+│   └── TejUserApplication.java # Main application class
 
+src/main/resources
+├── static              # CSS, JS, images
+├── templates           # Thymeleaf templates
+└── application.properties # Configuration
+```
 
-## Testing
+## Key Configuration
 
-The project includes unit and integration tests to ensure the functionality of the application. To run the tests, use the following command:
-
-```sh
-mvn test
+`application.properties`:
+```properties
+server.port=8082
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.thymeleaf.cache=false
+management.endpoints.web.exposure.include=health,info
 ```
 
 ## Contributing
 
-Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure that your code follows the project's coding standards and includes relevant tests.
+Contributions are welcome! Please open an issue or submit a pull request for any improvements.
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
 
-## Contact
+**Screenshots** (You can add these as images in your repository):
 
-For any inquiries or support, please contact:
+1. Login Page:
+![Login Page](screenshots/login.png)
 
-- Maruthi Charan Teja
-- charantejdonthireddy@gmail.com
+2. Admin Dashboard:
+![Admin Dashboard](screenshots/admin-dashboard.png)
 
----
+3. Employee Management:
+![Employee Management](screenshots/employee-management.png)
 
-Feel free to modify and expand this template based on the specific details and requirements of your project. If there are additional features or specific instructions, let me know, and I can further refine the README.
+Note: You should create a `screenshots` directory in your repository and add actual screenshots from your application.
+
+This README provides:
+- Clear project description
+- Installation instructions
+- Usage guide
+- Technology stack overview
+- Project structure explanation
+- Contribution guidelines
+- License information
+
+Make sure to:
+1. Replace `your-username` in the clone command with your actual GitHub username
+2. Add actual screenshots to the repository
+3. Create a LICENSE file if needed
+4. Update the database credentials in the README to match your local setup
