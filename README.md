@@ -2,12 +2,12 @@
 https://drive.google.com/file/d/1PnkgLrqQ5byodFsrKGMN_r9o3aqPOdvK/view
 
 **Screenshots** 
-1. Home Page: 
-2. Login Page:
-3. Register page :
-4. Admin Dashboard:
-5. manager Dashboard :
-6. staff Dashboard :
+1. Home Page: screenshots/Home page.png
+2. Login Page:screenshots/loginpage.png
+3. Register page :screenshots/register page.png
+4. Admin Dashboard:screenshots/Admin Dashboard.png
+5. manager Dashboard :screenshots/Manager Dashboard.png
+6. staff Dashboard :screenshots/staff dashboard.png
    
 # Employee Management System using Spring Security
 
