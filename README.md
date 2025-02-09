@@ -45,13 +45,13 @@ A Spring Boot-based web application for managing employees with role-based acces
    git clone https://github.com/your-username/TejUserApplication.git
 
 
-#Database Setup:
+##Database Setup:
 
 -Create a MySQL database named tej_db
 
 -Update database credentials in src/main/resources/application.properties:
 
-properties
+**properties**
 spring.datasource.url=jdbc:mysql://localhost:3306/tej_db
 spring.datasource.username=your-username
 spring.datasource.password=your-password
