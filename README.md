@@ -2,7 +2,7 @@
 https://drive.google.com/file/d/1PnkgLrqQ5byodFsrKGMN_r9o3aqPOdvK/view
 
 **Screenshots** 
-1. Home Page: screenshots/Home page.png
+1. Home Page: [screenshots/Home page.png](https://github.com/maruthicharanteja10/Employee-Login-Register-alongwith-differentAuthtication-roles-UsingSpringboot/blob/48477273db632e2416d953dc45e6cfc9b0f0f508/screenshots/Home%20page.png)
 2. Login Page:screenshots/loginpage.png
 3. Register page :screenshots/register page.png
 4. Admin Dashboard:screenshots/Admin Dashboard.png
