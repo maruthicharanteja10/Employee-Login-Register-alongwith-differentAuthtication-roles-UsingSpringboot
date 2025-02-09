@@ -2,14 +2,15 @@
 https://drive.google.com/file/d/1PnkgLrqQ5byodFsrKGMN_r9o3aqPOdvK/view
 
 **Screenshots** 
+1. Home Page: ![image](https://github.com/user-attachments/assets/793a16ec-ae20-43ab-bbcd-4e0989584445)
 
-1. Login Page:
+2. Login Page:
 ![Login Page](screenshots/login.png)
 
-2. Admin Dashboard:
+3. Admin Dashboard:
 ![Admin Dashboard](screenshots/admin-dashboard.png)
 
-3. Employee Management:
+4. Employee Management:
 ![Employee Management](screenshots/employee-management.png)
 # Employee Management System using Spring Security
 
